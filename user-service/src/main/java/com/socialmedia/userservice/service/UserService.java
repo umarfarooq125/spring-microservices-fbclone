@@ -4,6 +4,7 @@ import com.socialmedia.userservice.FBRestClient;
 import com.socialmedia.userservice.VO.Post;
 import com.socialmedia.userservice.VO.ResponseTemplateVO;
 import com.socialmedia.userservice.entity.User;
+import com.socialmedia.userservice.exception.UserNotFoundException;
 import com.socialmedia.userservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
@@ -29,9 +30,11 @@ public class UserService {
         return userRepository.save(user);
     }
 
-    public ResponseTemplateVO getUserWithPosts(Long userId) {
+    public ResponseTemplateVO getUserWithPosts(Long userId) throws UserNotFoundException {
         ResponseTemplateVO vo = new ResponseTemplateVO();
-        User user = userRepository.findById(userId).get();
+        User user = userRepository.findByUserId(userId);
+        if(user == null) throw new UserNotFoundException("user with given id not found");
+
         vo.setUser(user);
 
         List<Post> posts = fbRestClient.getApi("http://POST-SERVICE/posts/foruser/" + userId, HttpMethod.GET);

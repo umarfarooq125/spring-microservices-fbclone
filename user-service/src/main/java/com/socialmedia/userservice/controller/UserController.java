@@ -2,6 +2,7 @@ package com.socialmedia.userservice.controller;
 
 import com.socialmedia.userservice.VO.ResponseTemplateVO;
 import com.socialmedia.userservice.entity.User;
+import com.socialmedia.userservice.exception.UserNotFoundException;
 import com.socialmedia.userservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +23,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public ResponseTemplateVO getUser(@PathVariable("id") Long userId) {
+    public ResponseTemplateVO getUser(@PathVariable("id") Long userId) throws UserNotFoundException {
         return userService.getUserWithPosts(userId);
     }
 }

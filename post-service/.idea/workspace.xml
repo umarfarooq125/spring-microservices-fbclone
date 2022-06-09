@@ -5,47 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb450406-c5fa-4b61-9563-0aeb7cca4f07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FraddieMac/FraddieMac.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FraddieMac/src/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/Practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/src/StreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../could-gateway/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../could-gateway/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../could-gateway/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../could-gateway/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../could-gateway/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../could-gateway/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/FBRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/advice/ApplicationExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../could-gateway/src/main/java/com/socialmedia/couldgateway/CouldGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../could-gateway/src/main/java/com/socialmedia/couldgateway/CouldGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../could-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../could-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/entity/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/repository/PostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socialmedia/postservice/service/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/entity/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/entity/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/repository/PostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/socialmedia/postservice/service/PostService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-registry/src/main/java/com/socialmedia/serviceregistry/ServiceRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service-registry/src/main/java/com/socialmedia/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../service-registry/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/advice/ApplicationExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/advice/ApplicationExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/socialmedia/userservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/advice/ApplicationExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/advice/ApplicationExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-service/target/classes/com/socialmedia/userservice/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
