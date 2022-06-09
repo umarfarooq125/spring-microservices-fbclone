@@ -33,4 +33,8 @@ public class PostService {
         postRepository.deleteById(postId);
         return true;
     }
+
+    public List<Post> findAllPostsByUser(Long userId) {
+        return postRepository.findByUserId(userId);
+    }
 }

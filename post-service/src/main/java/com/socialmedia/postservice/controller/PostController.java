@@ -29,6 +29,13 @@ public class PostController {
         return postService.findAllPosts();
     }
 
+    @GetMapping("/foruser/{byuserid}")
+    public List<Post> getAllPosts(@PathVariable("byuserid") Long userId){
+        log.info("PostController.getAllPosts");
+        List<Post> posts = postService.findAllPostsByUser(userId);
+        return posts;
+    }
+
 
     @GetMapping("/{id}")
     public Post findPostByPostId(@PathVariable("id") Long postId){
